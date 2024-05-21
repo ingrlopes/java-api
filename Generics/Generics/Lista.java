@@ -1,8 +1,11 @@
+package Generics;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Aula1 {
-	public static void main(String[] args) {
+public class Lista {
+    public static void main(String[] args) {
+        
 		// Exemplo sem Generics
 		List listaSemGenerics = new ArrayList();
 		listaSemGenerics.add("Elemento 1");
