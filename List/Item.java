@@ -1,18 +1,18 @@
 package List;
 
 public class Item {
-    
-    private String descricao;
 
-    public Item(String descricao) {
-        this.descricao = descricao;
-    }
+  private String nome;
 
-    public String getDescricao() {
-        return descricao;
-    }
+  public Item(String nome) {
+      this.nome = nome;
+  }
 
-    public String toString() {
-        return descricao;
-    }
+  public String getNome() {
+      return nome;
+  }
+
+  public String toString() {
+      return nome;
+  }
 }

@@ -24,9 +24,9 @@ public class CarrinhoCompras {
         carrinhoCompras.rmvItem("Refrigerante");
         System.out.println("O número atual de itens no carrinho é: " + carrinhoCompras.numbTotalItens());
         System.out.println("-------------");
-        
+
         System.out.println("ITENS NO CARRINHO: ");
-        carrinhoCompras.descricaoItens();
+        carrinhoCompras.nomeItens();
         System.out.println("-------------");
     }
 
@@ -36,18 +36,18 @@ public class CarrinhoCompras {
         this.itemList = new ArrayList<>();
     }
 
-    public void addItem(String descricao) {
+    public void addItem(String nome) {
         System.out.println("!! ADICIONANDO NOVO ITEM !!");
-        System.out.println("> " + descricao + " adicionado com sucesso.");
-        itemList.add(new Item(descricao));
+        System.out.println("> " + nome + " adicionado com sucesso.");
+        itemList.add(new Item(nome));
     }
 
-    public void rmvItem(String descricao) {
+    public void rmvItem(String nome) {
         List<Item> itemRemove = new ArrayList<>();
 
-        for(Item t : itemList) {
-            if(t.getDescricao().equalsIgnoreCase(descricao)) {
-                itemRemove.add(t);
+        for(Item i : itemList) {
+            if(i.getNome().equalsIgnoreCase(nome)) {
+                itemRemove.add(i);
             }
         }
         System.out.println("!! REMOVENDO ITEM !!");
@@ -59,7 +59,7 @@ public class CarrinhoCompras {
         return itemList.size();
     }
 
-    public void descricaoItens() {
+    public void nomeItens() {
         System.out.println(itemList);
     }
 }
