@@ -1,4 +1,4 @@
-package Map.Ordenação;
+package Collections.Map.Ordenação;
 
 public class Evento {
 

@@ -1,4 +1,4 @@
-package Map.Pesquisa;
+package Collections.Map.Pesquisa;
 
 import java.util.HashMap;
 import java.util.Map;

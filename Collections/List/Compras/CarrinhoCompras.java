@@ -1,4 +1,4 @@
-package List.Compras;
+package Collections.List.Compras;
 import java.util.ArrayList;
 import java.util.List;
 

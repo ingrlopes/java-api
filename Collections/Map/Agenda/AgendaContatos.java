@@ -1,4 +1,4 @@
-package Map.Agenda;
+package Collections.Map.Agenda;
 
 import java.util.HashMap;
 import java.util.Map;

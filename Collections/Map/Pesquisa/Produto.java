@@ -1,4 +1,4 @@
-package Map.Pesquisa;
+package Collections.Map.Pesquisa;
 
 public class Produto {
 

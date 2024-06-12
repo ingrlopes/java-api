@@ -1,4 +1,4 @@
-package Map.Ordenação;
+package Collections.Map.Ordenação;
 
 import java.time.LocalDate;
 import java.util.HashMap;
